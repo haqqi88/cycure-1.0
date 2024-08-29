@@ -22,3 +22,17 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Toaster/>
   </React.StrictMode>,
 )
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <BrowserRouter>
+//       <AuthContextProvider>
+//         <SocketContextProvider>
+//           <LearnContextProvider>
+//             <App/>
+//           </LearnContextProvider>
+//         </SocketContextProvider>
+//       </AuthContextProvider>
+//     </BrowserRouter>
+//     <Toaster/>
+//   </React.StrictMode>,
+// )
